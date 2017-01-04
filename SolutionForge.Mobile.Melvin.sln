@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionForge.Mobile.Melvin", "SolutionForge.Mobile.Melvin.csproj", "{5B7C69BA-05F2-4B3B-9A31-9ABA816ADD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.SolutionForge.Mobile.Melvin", "Test.Melvin\Test.SolutionForge.Mobile.Melvin.csproj", "{71B27E4B-B350-4738-890B-08CC316AB99A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5B7C69BA-05F2-4B3B-9A31-9ABA816ADD56}.Debug.ActiveCfg = Debug|.NET
+		{5B7C69BA-05F2-4B3B-9A31-9ABA816ADD56}.Debug.Build.0 = Debug|.NET
+		{5B7C69BA-05F2-4B3B-9A31-9ABA816ADD56}.Release.ActiveCfg = Release|.NET
+		{5B7C69BA-05F2-4B3B-9A31-9ABA816ADD56}.Release.Build.0 = Release|.NET
+		{71B27E4B-B350-4738-890B-08CC316AB99A}.Debug.ActiveCfg = Debug|.NET
+		{71B27E4B-B350-4738-890B-08CC316AB99A}.Debug.Build.0 = Debug|.NET
+		{71B27E4B-B350-4738-890B-08CC316AB99A}.Release.ActiveCfg = Release|.NET
+		{71B27E4B-B350-4738-890B-08CC316AB99A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
